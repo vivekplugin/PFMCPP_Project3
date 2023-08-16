@@ -198,11 +198,11 @@ Part 1b - Step 2: Assignment
 
 Thing 1) Supermarket
 5 properties:
-    1)Total sales in a day
-    2)electricity consumed per month
-    3)number of lights
-    4)number of fans
-    5)number of products available
+    1)Total sales in a day (double)
+    2)electricity consumed per month (float)
+    3)number of lights (int)
+    4)number of fans (int)
+    5)number of products available (double)
 3 things it can do:
     1)sell products
     2)charge customers
@@ -210,11 +210,11 @@ Thing 1) Supermarket
 
 Thing 2) School
 5 properties:
-    1)number of students in a class
-    2)number of male students
-    3)number of female students
-    4)name of the school
-    5)water consumption per day
+    1)number of students in a class (int)
+    2)number of male students (double)
+    3)number of female students (double)
+    4)name of the school (std::string)
+    5)water consumption per day (float)
 3 things it can do:
     1)teach
     2)collect fee from students
@@ -222,11 +222,11 @@ Thing 2) School
 
 Thing 3) Book store
 5 properties:
-    1)number of fans
-    2)number of books
-    3)genere of books
-    4)books that can be rented
-    5)customers per day
+    1)number of fans (int)
+    2)number of books (double)
+    3)genere of books (std::string)
+    4)books that can be rented (std::string)
+    5)customers per day (int)
 3 things it can do:
     1)collect charges on a monthly basis
     2)restock books
@@ -234,11 +234,11 @@ Thing 3) Book store
 
 Thing 4) Zoo
 5 properties:
-    1)variety of species
-    2)number of visitors per day
-    3)number of restrooms
-    4)number of foodstalls
-    5)area of the zoo
+    1)variety of species (std::string)
+    2)number of visitors per day (int)
+    3)number of restrooms (int)
+    4)number of foodstalls (int)
+    5)area of the zoo (float)
 3 things it can do:
     1)charge visitors
     2)provide visitors a safari
