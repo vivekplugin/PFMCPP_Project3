@@ -337,17 +337,17 @@ Define an object that is made of 5 sub-objects.
     These 5 sub-objects will not be defined using Primitives, but instead will be their own UDTs 
     you'll define these 5 sub-objects in Part 1d.
 
-Thing 10)
+Thing 10) 
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) Display
+    2) Memory
+    3) Ram
+    4) Applications
+    5) I/O
 3 things it can do:
-    1)
-    2)
-    3)
+    1) automate tasks
+    2) send email
+    3) run applications
  */
 
  /*
