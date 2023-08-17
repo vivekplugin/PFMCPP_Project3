@@ -436,11 +436,11 @@ example:
 
 Thing 5) Display
 5 properties:
-    1)type of display
-    2)number of pixels
-    3)amount of power consumed
-    4)weight in cm
-    5)height in cm
+    1)type of display (std::string)
+    2)number of pixels (int)
+    3)amount of power consumed (float)
+    4)weight in cm (int)
+    5)height in cm (int)
 3 things it can do:
     1)ouput visulas to screen
     2)show only black and white
@@ -448,11 +448,11 @@ Thing 5) Display
 
 Thing 6) Memory
 5 properties:
-    1)size of the memory
-    2)access method
-    3)type of memory
-    4)unit of transfer
-    5)performance rating
+    1)size of the memory (int)
+    2)access method (std::string)
+    3)type of memory (std::string)
+    4)unit of transfer (int)
+    5)performance rating (float)
 3 things it can do:
     1)grant access to data
     2)store data
@@ -460,11 +460,11 @@ Thing 6) Memory
 
 Thing 7) Battery
 5 properties:
-    1)manufacturer
-    2)serial number
-    3)chemistry
-    4)design capacity
-    5)full charge capacity
+    1)manufacturer (std::string)
+    2)serial number (int)
+    3)chemistry (std::string)
+    4)design capacity (int)
+    5)full charge capacity (int)
 3 things it can do:
     1)stores electricity
     2)releases electricity
@@ -472,11 +472,11 @@ Thing 7) Battery
 
 Thing 8) Applications
 5 properties:
-    1)type of appication
-    2)developer details
-    3)size of application
-    4)format of application
-    5)has any requirements
+    1)type of appication (std::string)
+    2)developer details (std::string)
+    3)size of application (float)
+    4)format of application (std::string)
+    5)has any requirements (bool)
 3 things it can do:
     1)perfoms the specified task
     2)load necessecary data on start
@@ -484,11 +484,11 @@ Thing 8) Applications
 
 Thing 9) I/O
 5 properties:
-    1)type of input
-    2)type of output
-    3)number of inputs
-    4)number of outputs
-    5)power consumed
+    1)type of input (std::string)
+    2)type of output (std::string)
+    3)number of inputs (int)
+    4)number of outputs (int)
+    5)power consumed (float)
 3 things it can do:
     1)accept input data
     2)output data
