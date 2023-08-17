@@ -341,7 +341,7 @@ Thing 10)
 5 properties:
     1) Display
     2) Memory
-    3) Ram
+    3) Battery
     4) Applications
     5) I/O
 3 things it can do:
@@ -434,65 +434,65 @@ example:
     You will need to provide 5 properties and 3 member functions of that Engine object in plain English.
     Remember to pick properties that can be represented with 'int float double bool char std::string'.
 
-Thing 5)
+Thing 5) Display
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1)type of display
+    2)number of pixels
+    3)amount of power consumed
+    4)weight in cm
+    5)height in cm
 3 things it can do:
-    1)
-    2)
-    3)
+    1)ouput visulas to screen
+    2)show only black and white
+    3)turn off
 
-Thing 6)
+Thing 6) Memory
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1)size of the memory
+    2)access method
+    3)type of memory
+    4)unit of transfer
+    5)performance rating
 3 things it can do:
-    1)
-    2)
-    3)
+    1)grant access to data
+    2)store data
+    3)delete data
 
-Thing 7)
+Thing 7) Battery
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1)manufacturer
+    2)serial number
+    3)chemistry
+    4)design capacity
+    5)full charge capacity
 3 things it can do:
-    1)
-    2)
-    3)
+    1)stores electricity
+    2)releases electricity
+    3)accepts electricity
 
-Thing 8)
+Thing 8) Applications
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1)type of appication
+    2)developer details
+    3)size of application
+    4)format of application
+    5)has any requirements
 3 things it can do:
-    1)
-    2)
-    3)
+    1)perfoms the specified task
+    2)load necessecary data on start
+    3)clear everything when closed
 
-Thing 9)
+Thing 9) I/O
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1)type of input
+    2)type of output
+    3)number of inputs
+    4)number of outputs
+    5)power consumed
 3 things it can do:
-    1)
-    2)
-    3)
+    1)accept input data
+    2)output data
+    3)turn off while not in use
  */
 
 /*
