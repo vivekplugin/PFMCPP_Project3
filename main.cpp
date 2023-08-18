@@ -430,6 +430,7 @@ MOVE THEM to the space below this block comment and put them in numerical order
     I only want to see the 10 UDTs written BELOW this block comment, in numerical order (1 - 10).
     simply CUT and PASTE them in the space provided below:
 */
+/*
 
 Thing 1) Supermarket
 5 properties:
@@ -479,19 +480,7 @@ Thing 4) Zoo
     2)provide visitors a safari
     3)guide the visitors
 
-Thing 5) Laptop
-5 properties:
-    1) Display
-    2) Memory
-    3) Battery
-    4) Applications
-    5) I/O
-3 things it can do:
-    1) automate tasks
-    2) send email
-    3) run applications
-
-Thing 6) Display
+Thing 5) Display
 5 properties:
     1)type of display (std::string)
     2)number of pixels (int)
@@ -503,7 +492,7 @@ Thing 6) Display
     2)show only black and white
     3)turn off
 
-Thing 7) Memory
+Thing 6) Memory
 5 properties:
     1)size of the memory (int)
     2)access method (std::string)
@@ -515,7 +504,7 @@ Thing 7) Memory
     2)store data
     3)delete data
 
-Thing 8) Battery
+Thing 7) Battery
 5 properties:
     1)manufacturer (std::string)
     2)serial number (int)
@@ -527,7 +516,7 @@ Thing 8) Battery
     2)releases electricity
     3)accepts electricity
 
-Thing 9) Applications
+Thing 8) Applications
 5 properties:
     1)type of appication (std::string)
     2)developer details (std::string)
@@ -539,7 +528,7 @@ Thing 9) Applications
     2)load necessecary data on start
     3)clear everything when closed
 
-Thing 10) I/O
+Thing 9) I/O
 5 properties:
     1)type of input (std::string)
     2)type of output (std::string)
@@ -551,6 +540,19 @@ Thing 10) I/O
     2)output data
     3)turn off while not in use
 
+Thing 10) Laptop
+5 properties:
+    1) Display
+    2) Memory
+    3) Battery
+    4) Applications
+    5) I/O
+3 things it can do:
+    1) automate tasks
+    2) send email
+    3) run applications
+
+*/
 
 /*
 =================
