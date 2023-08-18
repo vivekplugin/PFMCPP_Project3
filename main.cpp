@@ -83,51 +83,51 @@ Main Object: Car Interior
         Name 4 nouns you'll find on the [Sub Object]
             1) paddle shifters
             2) 'cruise control' controls
-            3) 
-            4) 
+            3) horn switch
+            4) 'media control' controls
         Name 2 actions that the [Sub Object] can do:
             1) adjust cruise control settings.
-            2)
+            2)adjust media control settings
         
     Sub Object: Instrument Cluster
         Name 4 nouns you'll find on the [Sub Object]
-            1)
-            2)
-            3)
-            4)
+            1)speedometer
+            2)rev counter
+            3)fuel indicator
+            4)temperature indicator
         Name 3 actions that the [Sub Object] can do:
-            1)
-            2)
-            3)
+            1)display current speed
+            2)display current temperature
+            3)display the amount of fuel present
     
     Sub Object: Environment Controls
         Name 3 nouns you'll find on the [Sub Object]
-            1)
-            2)
-            3)
+            1)mode control
+            2)recirculation control
+            3)temperature control
         Name 3 actions that the [Sub Object] can do:
-            1)
-            2)
-            3)
+            1)control the operation mode
+            2)control the recircultion setting
+            3)control the temperature
 
     Sub Object: Infotainment System
         Name 3 nouns you'll find on the [Sub Object]
-            1)
-            2)
-            3)
+            1)'media control' controls
+            2)'volume control' controls
+            3)mute control
         Name 3 actions that the [Sub Object] can do:
-            1)
-            2)
-            3)
+            1)adjust media control settings
+            2)adjust volume
+            3)turn mute on/off
 
     Sub Object: Seat 
         Name 3 nouns you'll find on the [Sub Object]
-            1)
-            2)
-            3)
+            1)head rest
+            2)height controls
+            3)recline controls
         Name 2 actions that the [Sub Object] can do:
-            1)
-            2)
+            1)adjust seat height
+            2)adjust recline position
 */
 
 /*
@@ -196,53 +196,7 @@ Part 1b - Step 2: Assignment
         c) pick properties that can eventually be represented with 
         'int float double bool char std::string'.
 
-Thing 1)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
 
-Thing 2)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
-
-Thing 3)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
-
-Thing 4)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
 */
 
 /*
@@ -337,17 +291,7 @@ Define an object that is made of 5 sub-objects.
     These 5 sub-objects will not be defined using Primitives, but instead will be their own UDTs 
     you'll define these 5 sub-objects in Part 1d.
 
-Thing 10)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
+
  */
 
  /*
@@ -434,65 +378,7 @@ example:
     You will need to provide 5 properties and 3 member functions of that Engine object in plain English.
     Remember to pick properties that can be represented with 'int float double bool char std::string'.
 
-Thing 5)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
 
-Thing 6)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
-
-Thing 7)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
-
-Thing 8)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
-
-Thing 9)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
  */
 
 /*
@@ -544,13 +430,129 @@ MOVE THEM to the space below this block comment and put them in numerical order
     I only want to see the 10 UDTs written BELOW this block comment, in numerical order (1 - 10).
     simply CUT and PASTE them in the space provided below:
 */
+/*
 
+Thing 1) Supermarket
+5 properties:
+    1)Total sales in a day (double)
+    2)electricity consumed per month (float)
+    3)number of lights (int)
+    4)number of fans (int)
+    5)number of products available (double)
+3 things it can do:
+    1)sell products
+    2)charge customers
+    3)home deliver products
 
+Thing 2) School
+5 properties:
+    1)number of students in a class (int)
+    2)number of male students (double)
+    3)number of female students (double)
+    4)name of the school (std::string)
+    5)water consumption per day (float)
+3 things it can do:
+    1)teach
+    2)collect fee from students
+    3)conduct exams
 
+Thing 3) Book store
+5 properties:
+    1)number of fans (int)
+    2)number of books (double)
+    3)genere of books (std::string)
+    4)books that can be rented (std::string)
+    5)customers per day (int)
+3 things it can do:
+    1)collect charges on a monthly basis
+    2)restock books
+    3)offer discounts
 
+Thing 4) Zoo
+5 properties:
+    1)variety of species (std::string)
+    2)number of visitors per day (int)
+    3)number of restrooms (int)
+    4)number of foodstalls (int)
+    5)area of the zoo (float)
+3 things it can do:
+    1)charge visitors
+    2)provide visitors a safari
+    3)guide the visitors
 
+Thing 5) Display
+5 properties:
+    1)type of display (std::string)
+    2)number of pixels (int)
+    3)amount of power consumed (float)
+    4)weight in cm (int)
+    5)height in cm (int)
+3 things it can do:
+    1)ouput visulas to screen
+    2)show only black and white
+    3)turn off
 
+Thing 6) Memory
+5 properties:
+    1)size of the memory (int)
+    2)access method (std::string)
+    3)type of memory (std::string)
+    4)unit of transfer (int)
+    5)performance rating (float)
+3 things it can do:
+    1)grant access to data
+    2)store data
+    3)delete data
 
+Thing 7) Battery
+5 properties:
+    1)manufacturer (std::string)
+    2)serial number (int)
+    3)chemistry (std::string)
+    4)design capacity (int)
+    5)full charge capacity (int)
+3 things it can do:
+    1)stores electricity
+    2)releases electricity
+    3)accepts electricity
+
+Thing 8) Applications
+5 properties:
+    1)type of appication (std::string)
+    2)developer details (std::string)
+    3)size of application (float)
+    4)format of application (std::string)
+    5)has any requirements (bool)
+3 things it can do:
+    1)perfoms the specified task
+    2)load necessecary data on start
+    3)clear everything when closed
+
+Thing 9) I/O
+5 properties:
+    1)type of input (std::string)
+    2)type of output (std::string)
+    3)number of inputs (int)
+    4)number of outputs (int)
+    5)power consumed (float)
+3 things it can do:
+    1)accept input data
+    2)output data
+    3)turn off while not in use
+
+Thing 10) Laptop
+5 properties:
+    1) Display
+    2) Memory
+    3) Battery
+    4) Applications
+    5) I/O
+3 things it can do:
+    1) automate tasks
+    2) send email
+    3) run applications
+
+*/
 
 /*
 =================
